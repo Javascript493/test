@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #box {
+    position: relative;
+    height: 100%;
+    width: 200px;
+    background-color: beige;
+  }
+  #box .block-1 {
+    width: 200px;
+    height: 100px;
+    background-color: rosybrown;
+  }
+  #box .block-2 {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    width: 200px;
+    background-color: red;
+  }
+</style>
+<body>
+    <div id="box">
+        <div class="block-1"></div>
+        <div class="block-2"></div>
+      </div>
+</body>
+</html>
